@@ -6,8 +6,12 @@
     <title>Honda CBR</title>
     <link rel="shortcut icon" href="images/bike-4.jpg" type="image/x-icon">
 
+    <!-- ------------icon cdn------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- ---------CSS Link---------- -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
 
 </head>
 <body>
@@ -17,17 +21,183 @@
         <!-- --------------Navbar Section----------- -->
         <section id="navbar">
 
+            <nav class="navbar navbar-expand-lg honda-banner-bg">
+                <div class="container">
+
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+
+                  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+
+
+                    <div class="ms-auto d-flex justify-content-between  ">
+                        <ul class="navbar-nav  mb-2 mb-lg-0   me-5 gap-5 ">
+                            <li class="nav-item ">
+                              <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-white" href="#">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-white" href="#">News</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-white" href="#">Contact</a>
+                            </li>
+                          </ul>
+
+                          <button class="btn honda-btn-bg ms-5 text-white px-4 m-auto">Login</button>
+                    </div>
+
+                  </div>
+
+
+                </div>
+            </nav>
+
         </section>
 
         <!-- ------------------Banner Section----------------- -->
         <section id="banner">
 
+            
+
+                <div class="row honda-banner-bg p-5">
+                    <div class="col-lg-6 text-white d-flex flex-column justify-content-center p-5">
+                        <p>Computer-controlled digital transistorized with electronic advance</p>
+                        <h1>Honda CBR 300R</h1>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <button class="btn honda-btn-bg text-white me-auto px-4 px-4">Purchase</button>
+                    </div>
+                    
+                    <div class="col-lg-6 p-5 ">
+                        <img src="images/header-bike.png" alt="">
+                    </div>
+                </div>
+            
+
         </section>
-        
+
     </header>
 
     <!-- -----------------Main Part--------------- -->
     <main>
+
+        <!-- ----------Featured bike section----------- -->
+        <section id="featured_bike">
+            <div class="container text-center my-5">
+                <h1>Featured Bikes 2021</h1>
+                <p style="color: #E76F51;">Best Bike Collection</p>
+                
+                <div class="row p-5">
+                    <div class="col-lg-4 p-5">
+                        <img class="img-fluid black-image" src="images/feature-bike.jpg" alt="">
+                    </div>
+
+                    <div class="col-lg-4 p-5">
+                        <img class="img-fluid" src="images/feature-bike.jpg" alt="">
+                    </div>
+
+                    <div class="col-lg-4 p-5">
+                        <img class="img-fluid black-image" src="images/feature-bike.jpg" alt="">
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- ----------------Latest News-------------- -->
+        <section id="latest_news">
+            <div class="container px-5 ">
+                <h1 class="text-center">Latest News</h1>
+                <div class="row p-5">
+
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card border-0 shadow-lg" style="width: 18rem;">
+                            <img src="images/bike-1.png" class="card-img-top p-3" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <button class="btn honda-news-btn-bg me-auto px-4 px-4">Read Now</button>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card border-0 shadow-lg" style="width: 18rem;">
+                            <img src="images/bike-2.png" class="card-img-top p-3" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <button class="btn honda-news-btn-bg me-auto px-4 px-4">Read Now</button>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card border-0 shadow-lg" style="width: 18rem;">
+                            <img src="images/bike-3.png" class="card-img-top p-3" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <button class="btn honda-news-btn-bg me-auto px-4 px-4">Read Now</button>
+                            </div>
+                          </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------------Clients Section------------- -->
+        <section id="clients" class="my-5">
+            <div class="container text-center">
+                <h1>Happy <span style="color: #E76F51;">Client Says</span></h1>
+                <div class="row p-5">
+                    <div class="col-lg-4 clients-col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/user-1.png" class="card-img-top px-5 py-3" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <i class="fa-solid fa-star" style="color: #fb9403;"></i><i class="fa-solid fa-star" style="color: #fb9403;"></i><i class="fa-solid fa-star" style="color: #fb9403;"></i><i class="fa-solid fa-star" style="color: #fb9403;"></i><i class="fa-solid fa-star" style="color: #fb9403;"></i> <br><br>
+                              <a class="name" href="">Regina Miles</a>
+                              <p class="mt-3"><b>Banker</b></p>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="col-lg-4 clients-col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/user-2.png" class="card-img-top px-5 py-3" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <i class="fa-solid fa-star" style="color: #fb9403;"></i><i class="fa-solid fa-star" style="color: #fb9403;"></i><i class="fa-solid fa-star" style="color: #fb9403;"></i><i class="fa-solid fa-star" style="color: #fb9403;"></i><i class="fa-solid fa-star" style="color: #fb9403;"></i> <br><br>
+                              <a class="name" href="">Regina Miles</a>
+                              <p class="mt-3"><b>Banker</b></p>
+                            </div>
+                          </div>
+                    </div><div class="col-lg-4 clients-col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/user-1.png" class="card-img-top px-5 py-3" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <i class="fa-solid fa-star" style="color: #fb9403;"></i><i class="fa-solid fa-star" style="color: #fb9403;"></i><i class="fa-solid fa-star" style="color: #fb9403;"></i><i class="fa-solid fa-star" style="color: #fb9403;"></i><i class="fa-solid fa-star" style="color: #fb9403;"></i> <br><br>
+                              <a class="name" href="">Regina Miles</a>
+                              <p class="mt-3"><b>Banker</b></p>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
 
     </main>
 

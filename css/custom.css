@@ -1,0 +1,63 @@
+
+
+
+/* -------------header section--------------- */
+.honda-banner-bg{
+    background-color: #264653;
+}
+
+.honda-btn-bg{
+    background-color: #E76F51;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.honda-btn-bg:hover{
+    transform: scale(1.2);
+    background-color: #E76F51;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#navbar li a{
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+/* -------------------Main Section------------------- */
+
+/* -------------------Featured Section----------------- */
+
+.black-image{
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    mix-blend-mode: luminosity;
+    
+}
+
+/* --------------Latest News---------------- */
+
+.honda-news-btn-bg{
+    color: #E76F51;
+    border-color: #E76F51;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.honda-news-btn-bg:hover{
+    color: white;
+    border-color: #E76F51;
+    background-color: #E76F51;
+    
+}
+
+/* ------------clients section------------- */
+.name{
+    text-decoration: none;
+}
+
+.clients-col:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
